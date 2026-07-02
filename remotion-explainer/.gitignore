@@ -1,0 +1,20 @@
+node_modules/
+out/
+.remotion/
+*.log
+.DS_Store
+
+# Rendered/generated binary assets — regenerate with the AI image prompts in docs.
+# Comment these out if you want to commit finalized assets.
+assets/**/*.png
+assets/**/*.jpg
+assets/**/*.jpeg
+assets/**/*.webp
+assets/**/*.mp3
+assets/**/*.wav
+assets/**/*.m4a
+public/**/*.png
+public/**/*.jpg
+public/**/*.mp3
+public/**/*.wav
+!assets/**/.gitkeep
