@@ -1,0 +1,28 @@
+{
+  "name": "mortgage-explainer",
+  "version": "1.0.0",
+  "description": "Vox-style vertical mortgage explainer video — John Yang / loanDepot. Built with Remotion.",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio",
+    "studio": "remotion studio",
+    "render": "remotion render TheDownPaymentLie out/video.mp4",
+    "render:hd": "remotion render TheDownPaymentLie out/video.mp4 --codec=h264 --crf=18",
+    "still": "remotion still TheDownPaymentLie out/thumbnail.png --frame=90",
+    "upgrade": "remotion upgrade",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/shapes": "4.0.320",
+    "@remotion/transitions": "4.0.320",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.320",
+    "zod": "3.22.3"
+  },
+  "devDependencies": {
+    "@remotion/cli": "4.0.320",
+    "@types/react": "19.0.0",
+    "typescript": "5.5.4"
+  }
+}
