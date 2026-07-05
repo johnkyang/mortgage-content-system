@@ -1,12 +1,23 @@
 # Pocket 10M Sales Trainer
 
-An iPhone app that listens to a salesperson's conversations and delivers **real-time
-coaching** — overcoming objections, uncovering buyer motivations and pain points,
-persuading, and closing. The coaching brain is driven by a sales framework distilled from
-elite ($10M+ top-producer) sales-training sessions. Primary users: **mortgage / real estate
-salespeople.**
+An app that listens to a salesperson's calls and delivers **real-time coaching** — overcoming
+objections, uncovering buyer motivations and pain points, persuading, and closing. The coaching
+brain is driven by a sales framework distilled from elite ($10M+ top-producer) sales-training
+sessions. Primary users: **mortgage / real estate salespeople.**
 
 > The promise: *anyone gets a $10M top-producer coaching them live.*
+
+## 🖥️ Lead build: the macOS desktop app ("Deal Coach")
+
+The **current priority** is a native **MacBook Pro** app. macOS removes iOS's fatal limitation:
+a Mac app *can* capture the call audio (the Mac mic hears the speakerphone — both you and the
+prospect) and *can* show a live coaching overlay on the screen in front of you. Live tips +
+ready-to-read scripts appear in an always-on-top panel; a full debrief follows the call.
+
+**→ Full macOS build plan: [`docs/MACOS_APP.md`](docs/MACOS_APP.md)**
+
+The original mobile vision (and why iOS can't tap phone-call audio) lives in
+[`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) as the future iPhone-companion roadmap.
 
 ## Why this exists
 
